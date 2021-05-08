@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/side_nav_services"
+        android:icon="@drawable/services"
+        android:title="Service Registration" />
+
+    <item
+        android:id="@+id/side_nav_staffs"
+        android:icon="@drawable/staff"
+        android:title="Staff Registrations" />
+
+    <item
+        android:id="@+id/side_nav_profile"
+        android:icon="@drawable/profile"
+        android:title="My Profile" />
+
+    <item android:title="Legal">
+        <menu>
+            <item
+                android:id="@+id/side_nav_contact_us"
+                android:icon="@drawable/contact_us"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/side_nav_privacy_policy"
+                android:icon="@drawable/privacy_policy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/side_nav_terms_and_conditions"
+                android:icon="@drawable/terms_and_conditions"
+                android:title="Terms and Conditions" />
+        </menu>
+    </item>
+
+    <item android:title="@string/app_version"></item>
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359964442687",
+    "project_id": "grease-monkey-a4160",
+    "storage_bucket": "grease-monkey-a4160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359964442687:android:d65d7568a13bf2c95cf88a",
+        "android_client_info": {
+          "package_name": "com.rsa.greasemechanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359964442687-v31fhigkbumgu93burp60n0h2j7ab5fd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGkPfAId5t_1J9Y14IltgxCum4B6G2XoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359964442687-v31fhigkbumgu93burp60n0h2j7ab5fd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
