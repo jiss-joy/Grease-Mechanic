@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.rsa.greasemechanic.R;
 
-public class StaffsActivity extends AppCompatActivity {
+public class NotificationsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_staffs);
+        setContentView(R.layout.activity_notifications);
     }
 }

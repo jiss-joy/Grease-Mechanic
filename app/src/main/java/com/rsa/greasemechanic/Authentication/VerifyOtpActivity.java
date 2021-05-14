@@ -244,8 +244,8 @@ public class VerifyOtpActivity extends AppCompatActivity {
         otp_et = findViewById(R.id.verify_otp_code);
         submitBTN = findViewById(R.id.verify_otp_submit_btn);
         resendBTN = findViewById(R.id.verify_otp_resend_otp_btn);
-        resendBTN.setBackgroundColor(getResources().getColor(R.color.purple_200));
-        resendBTN.setTextColor(getResources().getColor(R.color.teal_200));
+        resendBTN.setBackgroundColor(getResources().getColor(R.color.primary));
+        resendBTN.setTextColor(getResources().getColor(R.color.white));
         resendBTN.setEnabled(false);
         otp_sent_tv.setText("An OTP has been sent to +91-" + mPhoneNumber);
         relativeLayout = findViewById(R.id.verify_otp_relative_layout);

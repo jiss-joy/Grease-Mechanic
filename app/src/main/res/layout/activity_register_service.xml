@@ -37,8 +37,39 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+
+        <com.ornach.nobobutton.NoboButton
+            android:id="@+id/register_service_location"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginHorizontal="32sp"
+            android:layout_marginTop="5sp"
+            app:nb_backgroundColor="@color/white"
+            app:nb_borderColor="@color/grey_background"
+            app:nb_borderWidth="2dp"
+            app:nb_drawableResource="@drawable/location"
+            app:nb_focusColor="@color/white"
+            app:nb_fontIcon="Location"
+            app:nb_gravity="left"
+            app:nb_iconColor="@color/grey"
+            app:nb_iconPadding="24sp"
+            app:nb_iconPosition="left"
+            app:nb_radius="4sp"
+            app:nb_text="Location"
+            app:nb_textColor="@color/grey"
+            app:nb_textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47sp"
+            android:layout_marginTop="4sp"
+            android:text="Required*"
+            android:textColor="@color/red"
+            android:textSize="12sp" />
+
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/register_service_layout_2"
+            android:id="@+id/register_service_layout_3"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,11 +90,11 @@
             android:id="@+id/register_service_submit_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_marginHorizontal="32sp"
             android:layout_marginTop="18sp"
             android:paddingVertical="17sp"
             android:text="SUBMIT" />
-
 
     </LinearLayout>
 

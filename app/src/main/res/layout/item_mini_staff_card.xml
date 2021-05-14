@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginVertical="8dp"
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/item_mini_staff_card_pro_pic"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10sp"
+            android:src="@drawable/random" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/item_mini_staff_card_pro_pic"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_mini_staff_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Adams"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/item_mini_staff_card_workExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="6sp"
+                android:text="2 Years Experience"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/item_mini_staff_card_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14/01/1999"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -2,12 +2,10 @@
     <string name="app_name">Grease Mechanic</string>
     <string name="app_version">Grease Mechanic v1.0.0</string>
 
-    //Firebase Admin UID
-    <string name="admin_uid">arAfXG1ehMeQbyBD4Xb89op5DIg1</string>
-
     <string name="temp_gstin">32AABFJ628D1ZI</string>
 
     //Drawer Strings
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_get_location">Map</string>
 </resources>
